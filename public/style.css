@@ -521,6 +521,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
+.mr-\[-64px\] {
+  margin-right: -64px;
+}
+
+.-mr-32 {
+  margin-right: -8rem;
+}
+
 .flex {
   display: flex;
 }
@@ -625,6 +641,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 78%;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
 .max-w-xl {
   max-width: 36rem;
 }
@@ -649,12 +673,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: flex-start;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
 .justify-items-center {
   justify-items: center;
 }
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .rounded {
@@ -682,6 +718,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\'\.\/\.\.\/assets\/images\/membship\.jpg\'\)\] {
   background-image: url('./../assets/images/membship.jpg');
+}
+
+.bg-\[url\(\'\.\/\.\.\/assets\/images\/tvStick\.jpg\'\)\] {
+  background-image: url('./../assets/images/tvStick.jpg');
 }
 
 .bg-cover {

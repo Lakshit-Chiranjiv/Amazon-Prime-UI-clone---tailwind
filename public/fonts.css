@@ -28,6 +28,10 @@
   font-family: AmazonEmber;
 }
 
+html,body{
+  overflow-x: hidden;
+}
+
 /* p{
   color: #1A242E;
   color: #1e3a8a;

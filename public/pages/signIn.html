@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="stylesheet" href="./../fonts.css">
+    <title>Amazon Sign-In</title>
+</head>
+<body>
+    <img class="mx-auto my-4" src="./../../assets/images/prime_black_logo.png" alt="primelogo">
+    <div class="w-96 mx-auto rounded p-6 border-black-100 border">
+        <h1 class="text-3xl font-extrabold tracking-wider mb-4">Sign-In</h1>
+        <form>
+            <label for="email" class="font-black text-sm mb-1">Email or mobile phone number</label>
+            <input type="email" class="h-8 w-full rounded border-2 focus-within:border-orange-300 focus:outline-none mb-3">
+            <div class="flex justify-between">
+                <label for="password" class="font-black text-sm mb-1">Password</label>
+                <a href="#" class="text-blue-400 font-medium text-sm hover:underline hover:text-orange-400 mb-1">Forgot your password?</a>
+            </div>
+            <input type="password" class="h-8 w-full rounded border-2 focus-within:border-orange-300 focus:outline-none mb-6">
+
+            <button class="w-full bg-yellow-600 rounded h-8 text-sm font-bold mb-6">Sign-In</button>
+        </form>
+
+        <p class="text-xs font-bold mb-4">By continuing, you agree to Amazon's <a href="#" class="text-blue-400 hover:underline hover:text-orange-400">Conditions of Use</a> and <a href="#" class="text-blue-400 hover:underline hover:text-orange-400">Privacy Notice</a>.</p>
+
+        <div class="mb-8">
+            <input type="checkbox" name="signin">
+            <label for="signin" class="font-semibold text-sm">Keep me signed in.<a href="#" class="text-blue-400 hover:underline hover:text-orange-400">Details</a>.</label>
+        </div>
+
+        <div class="flex mb-2">
+            <hr class="w-1/3 mt-2">
+            <p class="text-xs font-medium text-gray-500">New to Amazon?</p>
+            <hr class="w-1/3 mt-2">
+        </div>
+
+        <button class="w-full bg-gray-400 rounded h-8 text-sm font-bold">Create your Amazon account</button>
+    </div>
+
+    <div class="h-[2px] w-[50%] my-4 mx-auto bg-slate-200"></div>
+
+    <div class="flex gap-6 my-4 w-1/3 mx-auto justify-center">
+        <a href="#" class="text-xs font-semibold text-blue-400 hover:text-orange-300 hover:underline">Conditions of Use</a>
+        <a href="#" class="text-xs font-semibold text-blue-400 hover:text-orange-300 hover:underline">Privacy Notice</a>
+        <a href="#" class="text-xs font-semibold text-blue-400 hover:text-orange-300 hover:underline">Help</a>
+    </div>
+
+    <p class="text-xs text-center font-semibold mb-6">&copy; 1996-2022, Amazon.com, Inc. or its affiliates</p>
+
+</body>
+</html>

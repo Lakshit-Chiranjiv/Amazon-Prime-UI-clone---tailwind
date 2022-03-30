@@ -14,12 +14,12 @@
         <h1 class="text-3xl font-extrabold tracking-wider mb-4">Sign-In</h1>
         <form>
             <label for="email" class="font-black text-sm mb-1">Email or mobile phone number</label>
-            <input type="email" class="h-8 w-full rounded border border-black focus-within:border-orange-400 focus:outline-none mb-3">
+            <input type="email" class="h-8 w-full rounded border border-black focus-within:border-orange-400 focus:outline-none mb-3 p-2 text-sm" id="emailinput">
             <div class="flex justify-between">
                 <label for="password" class="font-black text-sm mb-1">Password</label>
                 <a href="#" class="text-blue-400 font-medium text-sm hover:underline hover:text-orange-400 mb-1">Forgot your password?</a>
             </div>
-            <input type="password" class="h-8 w-full rounded border border-black focus-within:border-orange-400 focus:outline-none mb-6">
+            <input type="password" class="h-8 w-full rounded border border-black focus-within:border-orange-400 focus:outline-none mb-6 p-2 text-sm">
 
             <button class="w-full bg-gradient-to-t from-[#F1C455] to-[#f5dfac] rounded border-black border h-8 text-sm font-bold mb-6 hover:from-[#f5b478] hover:to-[#f5d278] ease-in-out duration-200">Sign-In</button>
         </form>
@@ -50,5 +50,9 @@
 
     <p class="text-xs text-center font-semibold mb-6">&copy; 1996-2022, Amazon.com, Inc. or its affiliates</p>
 
+    <script>
+        let emailInput = document.querySelector('#emailinput');
+        emailInput.focus();
+    </script>
 </body>
 </html>

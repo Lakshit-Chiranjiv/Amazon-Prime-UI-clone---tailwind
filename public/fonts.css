@@ -32,6 +32,11 @@ html,body{
   overflow-x: hidden;
 }
 
+img.banner{
+  clip: rect(0px,1000px,1000px,350px);
+  /* box-shadow: -80px 0px 40px rgb(255, 255, 255); */
+}
+
 /* p{
   color: #1A242E;
   color: #1e3a8a;

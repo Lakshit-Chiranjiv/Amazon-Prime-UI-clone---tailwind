@@ -1,5 +1,7 @@
 # Amazon-Prime-UI-clone---tailwind
-This is an amazon prime ui clone made using html and tailwind css 
+- This is an amazon prime ui clone made using html and tailwind css 
+- The actual project is in public folder - (index.html file)
+
 
 ### Techs Used
 

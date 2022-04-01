@@ -488,6 +488,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 5rem;
 }
 
+.top-\[84px\] {
+  top: 84px;
+}
+
+.top-\[83px\] {
+  top: 83px;
+}
+
+.top-\[82px\] {
+  top: 82px;
+}
+
+.top-\[82\.5px\] {
+  top: 82.5px;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
